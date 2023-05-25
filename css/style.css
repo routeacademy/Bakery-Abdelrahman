@@ -1,0 +1,392 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-size: 100% ;
+    color: white;
+}
+.home
+{
+    margin: auto;
+    width: 43%;
+    text-align: center;
+    margin-top: 200px;
+}
+.home p{
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Alegreya Sans';
+    margin: 10px 0px 20px 0px;
+}
+.home h1
+{
+    font-size: 70px;
+    font-weight: 340;
+    margin-bottom: 20px;
+}
+.home .btns
+{
+    margin-top: 40px;
+}
+.home .btn1
+{
+    background-color: #8e7754;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.4s ,color 0.4s;
+}
+.home .btn2
+{
+    font-size: 18px;
+    padding: 15px 25px;
+    border: solid 2px white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.4s ,color 0.4s;
+}
+
+.btn1:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.btn2:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.nav-bar img
+{
+    width: 175px;
+    margin-left: 120px;
+    padding: 10px 0px;
+}
+
+.nav-bar .links a
+{
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s;
+}
+
+.nav-bar .links
+{
+    float: right;
+    margin-right: 120px;
+    padding: 25px 0px;
+}
+
+.nav-bar .links a:hover
+{
+    color: #8e7754;
+}
+
+.section2
+{
+    height: 100vh;
+}
+
+.section2 .container
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+}
+
+.section2 .container img
+{
+    width: 45%;
+}
+
+
+.section2 .container .half1
+{
+    width: 45%;
+    float: right;
+}
+
+.section2 .container .half1 h2
+{
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: 300;
+}
+.section2 .container .half1 p
+{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.section2 .container .half1 ul
+{
+    list-style-type: none;
+}
+.section2 .container .half1 ul li img
+{
+    width: 40px;
+    border: 1px solid #8e7754;
+    border-radius: 50%;
+    float: left;
+}
+.section2 .container .half1 ul li p
+{
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.section3
+{
+    height: 80vh;
+    background-color: #F8F8F8;
+}
+.section3 .container
+{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.section3 .container .half1
+{
+    width: 50%;
+    margin-top: 120px;
+    display: inline-block;
+}
+.section3 .container .half1  h2
+{
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.section3 .container .half1  p
+{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.section3 .container .half2
+{
+    width: 50%;  
+    float: right; 
+    text-align: center;
+}
+.section3 .container .half2 img
+{
+    width: 85%;
+    margin-top: 60px;
+}
+
+.section4
+{
+    height: 100vh;
+    text-align: center;
+}
+.section4 h3
+{
+    font-size: 30px;
+    padding: 40px 0px;
+    font-weight: 300;
+}
+.section4 p
+{
+    font-size: 17px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+    line-height: 30px;
+}
+.section4 .container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.section4 .container .child
+{
+    width: 33.3%;
+    float: left;
+}
+.section4 .container .child .clr
+{
+    clear: both;
+}
+.section4 .container .child img
+{
+    width: 90%;
+    margin-bottom: 40px;
+}
+.section4 .container .child h4
+{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.section5
+{
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+.section5 .container
+{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.section5 .container .half1
+{
+    width: 45%;
+    display: inline-block;
+    margin-top: 100px;
+}
+.section5 .container .half1 h2
+{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.section5 .container .half1 p
+{
+    font-size: 17px;
+    margin-bottom: 30px;
+    opacity: 0.6;
+    line-height: 30px;
+}
+.section5 .container .half1 ul li
+{
+    list-style-type: none;
+}
+.section5 .container .half1 ul li img
+{
+    width: 40px;
+    border: 1px solid #8e7754;
+    background-color: #8e7754;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+.section5 .container .half2
+{
+    width: 50%;
+    float: right;
+    margin-top: 120px;
+}
+.section6
+{
+    height: 60vh;
+    background-color: #403D38;
+    color: #fff;
+}
+.section6 .container
+{
+    width: 80%;
+    height: 100%;
+    color: #fff;
+    margin: auto;
+}
+.section6 .container .child
+{
+    width: 22%;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+}
+.section6 .container .child h4
+{
+    font-size: 18px;
+    margin: 40px 0px;
+    font-weight: 400;
+}
+.section6 .container .child p
+{
+    margin: 40px 0px;
+    opacity: 0.6;
+    line-height: 30px;
+}
+.section6 .container .child ul li
+{
+    list-style-type: none;
+}
+.section6 .container .child ul li p
+{
+    margin: 20px 0px;
+    border-bottom: 0.5px solid rgba(255,255,255,0.05);;
+    line-height: 15px;
+    padding-bottom: 15px;
+}
+.section6 .container .child ul li img
+{
+    width: 18px;
+    float: left;
+}
+.section6 .container .bigIcon ul li img
+{
+    width: 30px;
+}
+.section7
+{
+    background-color: #353330;
+    height: 40vh;
+}
+.section7 .container
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+.section7 .container img
+{
+    width: 300px;
+    margin: 50px 0px 20px 0px;
+}
+.section7 .container p
+{
+    opacity: 0.6;
+}
+.section7 .container .icons img
+{
+    width: 45px;
+    background-color: #403D38;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+.section7 .container .icons .i1:hover
+{
+    background-color: #3B5998;
+}
+.section7 .container .icons .i2:hover
+{
+    background-color: #DD4B39;
+}
+.section7 .container .icons .i3:hover
+{
+    background-color: #007BB5;
+}
+.section7 .container .icons .i4:hover
+{
+    background-color: #00ACED;
+}
